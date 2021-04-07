@@ -13,16 +13,13 @@ class MyApp extends StatelessWidget {
           title: Text("First App"),
         ),
         body: Center(
-          child: TextButton(
+          child: ElevatedButton(
             onPressed: () {
-              print("Text Button is working");
+              print("Old Raised Button is working");
             },
             child: Text(
-              "Text Button",
+              "Old Raised Button",
               style: TextStyle(color: Colors.white),
-            ),
-            style: TextButton.styleFrom(
-              backgroundColor: Colors.green,
             ),
           ),
         ),
