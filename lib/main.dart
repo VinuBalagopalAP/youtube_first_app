@@ -12,9 +12,12 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text("First App"),
         ),
-        body: Center(
-          child: Text(
-            "This is my First App",
+        floatingActionButton: FloatingActionButton(
+          onPressed: () {
+            print("Floating Action Button is Working");
+          },
+          child: Icon(
+            Icons.add,
           ),
         ),
       ),
