@@ -1,4 +1,4 @@
-# flirst_app
+# first_app
 
 A new Flutter application.
 
