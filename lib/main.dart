@@ -13,14 +13,19 @@ class MyApp extends StatelessWidget {
           title: Text("First App"),
         ),
         body: Center(
-          child: ElevatedButton(
-            onPressed: () {
-              print("Old Raised Button is working");
-            },
-            child: Text(
-              "Old Raised Button",
-              style: TextStyle(color: Colors.white),
-            ),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Text("text widget"),
+              Text("text widget"),
+              ElevatedButton(
+                onPressed: () {},
+                child: Text("This is aButton"),
+              ),
+              Text("text widget"),
+              Text("text widget"),
+            ],
           ),
         ),
         floatingActionButton: FloatingActionButton(
