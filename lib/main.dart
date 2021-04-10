@@ -13,17 +13,20 @@ class MyApp extends StatelessWidget {
           title: Text("First App"),
         ),
         body: Center(
-          child: Column(
+          child: Row(
             mainAxisAlignment: MainAxisAlignment.center,
-            crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Text("text widget"),
-              Text("text widget"),
+              SizedBox(
+                width: 10,
+              ),
               ElevatedButton(
                 onPressed: () {},
                 child: Text("This is aButton"),
               ),
-              Text("text widget"),
+              SizedBox(
+                width: 10,
+              ),
               Text("text widget"),
             ],
           ),
